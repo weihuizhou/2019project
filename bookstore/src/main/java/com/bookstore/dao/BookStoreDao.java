@@ -12,6 +12,11 @@ import com.bookstore.vo.BookVo;
 @Repository
 public interface BookStoreDao {
 
+	/**
+	 * 通过id查找作者
+	 * @param id
+	 * @return
+	 */
 	public AuthorVo findAuthorById(int id);
 	
 	public List<AuthorVo> findAuthorAll();
