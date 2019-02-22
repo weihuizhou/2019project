@@ -7,6 +7,7 @@ public class BookVo {
 	private String description;
 	private String longDescription;
 	
+	
 	public String getBookId() {
 		return bookId;
 	}
